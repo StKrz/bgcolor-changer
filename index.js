@@ -13,7 +13,6 @@ function onClickMeClicked() {
 
 // Model
 
-
 /**
  * Gets a color and updates the UI Element.
  */
@@ -22,17 +21,14 @@ function updateBg() {
     showBgColor()
 }
 
-
 /**
  *  Selects a random color from a standard list.
  * @returns the color.
  */
-//ειναι αυτη που θα φερει το τυχαιο χρωμα απο εναν πινακα
 function getBgColor() {
     const colors = ['red', 'white', 'black', 'green', 'blue', 'yellow']
     return colors[Math.floor(Math.random() * colors.length)] // θα φερει απο το 0 εως length-1
 }
-
 
 /**
  * Fills the values of the corresponding UI elements.
