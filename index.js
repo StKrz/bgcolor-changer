@@ -30,7 +30,6 @@ function getBgColor() {
     return colors[Math.floor(Math.random() * colors.length)] // θα φερει απο το 0 εως length-1
 }
 
-
 /**
  * Fills the values of the corresponding UI elements.
  */
